@@ -126,4 +126,3 @@ def running_product_gen(nums):
     for num in nums:
         total *= num
         yield total
-зроби мені з цього коду зіп файл
