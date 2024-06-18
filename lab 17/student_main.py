@@ -89,15 +89,10 @@ def collatz_seq_gen(n):
 
 
 def geometric_prog_gen(initial, ratio, limit):
-    """Generates a geometric progression up to a limit."""
     term = initial
     while term <= limit:
         yield term
         term *= ratio
-
-
-""" Task 33: Arithmetic Progression Generator """
-
 
 def arithmetic_prog_gen(initial, diff, limit):
     term = initial
@@ -105,25 +100,14 @@ def arithmetic_prog_gen(initial, diff, limit):
         yield term
         term += diff
 
-
-""" Task 34: Running Sum Generator """
-
-
 def running_sum_gen(nums):
-    """Generates running sums of a list of numbers."""
     total = 0
     for num in nums:
         total += num
         yield total
 
-
-""" Task 35: Running Product Generator """
-
-
 def running_product_gen(nums):
-    """Generates running products of a list of numbers."""
     total = 1
     for num in nums:
         total *= num
         yield total
-зроби мені з цього коду зіп файл
